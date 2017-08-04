@@ -3,13 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-.markdown-textbox, .preview-div {
-  display: inline-block;
-  width: 400px;
-  height: 500px;
-  border: 1px solid black;
-  vertical-align: top;
-}
 .markdown-textbox {
-  resize: none;
+  height: 100%;
+  resize: vertical;
 }
